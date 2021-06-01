@@ -1,3 +1,40 @@
-h1 {
-    color: black;
+/* Form layout */
+.form-container{
+    max-width: 720px;
+    padding:  32px;
+    margin: 36px auto 0 auto;
+    background-color: #fff;
+}
+
+.form_row{
+    padding: 8px 0;
+    display: flex;
+}
+.form_label{
+    min-width: 90px;
+}
+
+.form_input{
+    flex: 1;
+}
+
+/* Column layout */
+.column-layout{
+    margin-top: 36px;
+    padding: 12px 0;
+    background-color: #fff;
+    display: flex;
+}
+
+.column-item{
+    padding:0 16px;
+}
+.sidebar-one{
+    flex: 1;
+}
+.sidebar-main{
+    flex: 3;
+}
+.sidebar-two{
+    flex: 1;
 }
